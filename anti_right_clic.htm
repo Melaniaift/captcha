@@ -1,0 +1,19 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Anti Right Clic</title>
+<script language="JavaScript1.2">
+function anti_right()
+	{
+	alert('Right Clic not authorized!');
+
+	return(false);
+	}
+document.oncontextmenu = anti_right;
+</script>
+</head>
+<body>
+<div align="center"><IMG SRC="img-scripts/demo.jpg" BORDER="0">
+  <br>
+  Try to right clic, you can't!</div>
+</body>
+</html>

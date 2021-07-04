@@ -1,0 +1,103 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Anti Text Selection</title>
+
+
+
+<script language="JavaScript1.2">
+function disabletextselect(i){
+return false
+}
+function renabletextselect(){
+return true
+}
+//if IE4+
+document.onselectstart=new Function ("return false")
+//if NS6+
+if (window.sidebar){
+document.onmousedown=disabletextselect
+document.onclick=renabletextselect
+}
+</script>
+
+
+</head>
+<body>
+<p>Try to select the text with your mouse, you can't</p>
+<p>text text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text
+  text </p>
+</body>
+</html>
